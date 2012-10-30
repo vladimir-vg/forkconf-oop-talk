@@ -1,0 +1,17 @@
+{
+  "name": "ForkConf OOP talk",
+  "description": "Slides for ForkConf talk",
+  "author": "Gordeev Vladimir",
+  "email": "gordeev.vladimir.v@gmail.com",
+  "templates" : {},
+  "sections": [
+    {"section": "intro"},
+    {"section": "idea"},
+    {"section": "message-pass"},
+    {"section": "prototype-vs-class"},
+    {"section": "decomposition"},
+    {"section": "mixins-traits"},
+    {"section": "stateful-traits"},
+    {"section": "outro"}
+  ]
+}

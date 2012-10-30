@@ -1,0 +1,23 @@
+/* custom css and js files included at the top level of your presentation will
+ * will be included in your presentation */
+
+body { font-family: 'Droid Sans'; }
+code { font-family: 'Droid Sans Mono'; }
+
+body { color: #070707; }
+
+.slide {
+	color: #070707;
+	background-color: #FAF2F2;
+}
+
+.red {
+	color: #E93320;
+}
+
+/*
+	black: #070707
+	grey: #4B4848
+	red: #E93320
+	light: #FAF2F2
+*/
