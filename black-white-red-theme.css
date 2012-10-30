@@ -11,6 +11,10 @@ body { color: #070707; }
 	background-color: #FAF2F2;
 }
 
+.black-template .slide {
+	background-color: #070707;
+}
+
 .red {
 	color: #E93320;
 }

@@ -3,7 +3,9 @@
   "description": "Slides for ForkConf talk",
   "author": "Gordeev Vladimir",
   "email": "gordeev.vladimir.v@gmail.com",
-  "templates" : {},
+  "templates" : {
+    "black": "black.tpl"
+  },
   "sections": [
     {"section": "intro"},
     {"section": "idea"},
