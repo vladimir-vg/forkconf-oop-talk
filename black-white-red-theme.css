@@ -17,10 +17,6 @@ body { color: #070707; }
 	background-color: #F3EFBE;
 }
 
-.black-template .slide {
-	background-color: #070707;
-}
-
 strong {
 	color: #BD2424;
 	font-weight: bold;
@@ -42,4 +38,14 @@ a:visited { color: #025D8C; }
 .subsection h1 {
 	background-color: #BD2424;
 	color: #F3EFBE;
+}
+
+/* templates */
+
+.black-template .slide {
+	background-color: #070707;
+}
+
+.banana-template {
+	background-image: url('/image/intro/plan-banana.png');
 }

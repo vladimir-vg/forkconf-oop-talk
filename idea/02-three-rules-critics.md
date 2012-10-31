@@ -16,6 +16,28 @@
 
 !SLIDE
 
+	@@@ python
+	class A:
+		def __init__(self, value):
+			self._var = value
+
+	a = A(10)
+	a._var = 5
+	print a._var # => 5
+
+!SLIDE
+
+	@@@ python
+	class A:
+		def __init__(self, value):
+			self.__var = value
+
+	a = A(10)
+	a._A__var = 5
+	print a._A__var # => 5
+
+!SLIDE
+
 # Стандартная мантра
 
  * Инкапсуляция в **Ruby**?

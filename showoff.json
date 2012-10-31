@@ -4,7 +4,8 @@
   "author": "Gordeev Vladimir",
   "email": "gordeev.vladimir.v@gmail.com",
   "templates" : {
-    "black": "black.tpl"
+    "black": "black.tpl",
+    "banana": "banana.tpl"
   },
   "sections": [
     "intro/01-title.md",
