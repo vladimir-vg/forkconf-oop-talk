@@ -1,27 +1,45 @@
 /* custom css and js files included at the top level of your presentation will
  * will be included in your presentation */
 
-body { font-family: 'Droid Sans'; }
+body { font-family: 'PT Sans'; }
 code { font-family: 'Droid Sans Mono'; }
+h1 { font-family: 'PT Sans Narrow'; }
+
+/*	black: #070707
+	red: #BD2424
+	light-blue: #025D8C
+	light: #F3EFBE */
 
 body { color: #070707; }
 
 .slide {
 	color: #070707;
-	background-color: #FAF2F2;
+	background-color: #F3EFBE;
 }
 
 .black-template .slide {
 	background-color: #070707;
 }
 
-.red {
-	color: #E93320;
+strong {
+	color: #BD2424;
+	font-weight: bold;
 }
 
-/*
-	black: #070707
-	grey: #4B4848
-	red: #E93320
-	light: #FAF2F2
-*/
+em {
+	color: #025D8C;
+	font-style: normal;
+}
+
+h1 {
+	color: #BD2424;
+	font-weight: bold; 
+}
+
+a { color: #025D8C; }
+a:visited { color: #025D8C; }
+
+.subsection h1 {
+	background-color: #BD2424;
+	color: #F3EFBE;
+}

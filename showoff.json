@@ -7,13 +7,15 @@
     "black": "black.tpl"
   },
   "sections": [
-    {"section": "intro"},
-    {"section": "idea"},
-    {"section": "message-pass"},
-    {"section": "prototype-vs-class"},
-    {"section": "decomposition"},
-    {"section": "mixins-traits"},
-    {"section": "stateful-traits"},
-    {"section": "outro"}
+    "intro/01-title.md",
+    "intro/02-about.md",
+    "intro/03-plan.md",
+    
+    "# Идея ООП",
+    "idea/01-common-sense.md",
+    "idea/02-three-rules-critics.md",
+
+    "# Конец",
+    "outro/01-questions.md"
   ]
 }
