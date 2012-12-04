@@ -2,7 +2,7 @@
  * will be included in your presentation */
 
 body { font-family: 'PT Sans'; }
-code { font-family: 'Droid Sans Mono'; }
+code { font-family: 'PT Mono'; }
 h1 { font-family: 'PT Sans Narrow'; }
 
 /*	black: #070707
@@ -15,6 +15,10 @@ body { color: #070707; }
 .slide {
 	color: #070707;
 	background-color: #F3EFBE;
+}
+
+.big {
+	font-size: 5em;
 }
 
 strong {
@@ -48,4 +52,8 @@ a:visited { color: #025D8C; }
 
 .banana-template {
 	background-image: url('/image/intro/plan-banana.png');
+}
+
+.pot-template {
+	background-image: url('/image/message-passing/pot-naming.png');
 }

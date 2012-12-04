@@ -6,6 +6,3 @@
  * Python, Ruby, Objective-C, JavaScript
  * Smalltalk, Io, Go, Common Lisp, Scala
  * И прочий никому не известный треш
-
-!SLIDE[tmpl=black] center
-<div><img src="three-rules.png" /></div>

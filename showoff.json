@@ -5,16 +5,23 @@
   "email": "gordeev.vladimir.v@gmail.com",
   "templates" : {
     "black": "black.tpl",
-    "banana": "banana.tpl"
+    "banana": "banana.tpl",
+    "pot": "pot.tpl"
   },
   "sections": [
     "intro/01-title.md",
     "intro/02-about.md",
     "intro/03-plan.md",
     
-    "# Идея ООП",
+    "# ОО-язык",
     "idea/01-common-sense.md",
     "idea/02-three-rules-critics.md",
+    "idea/03-messages-and-objects.md",
+
+    "# Посылка сообщения\n## vs\n# Вызов метода",
+    "message-passing/01-naming.md",
+    "message-passing/02-method-call.md",
+    "message-passing/03-message-passing.md",
 
     "# Конец",
     "outro/01-questions.md"
