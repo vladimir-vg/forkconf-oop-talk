@@ -20,7 +20,7 @@
 !SLIDE
 
 	@@@ python
-	class A:
+	class A(object):
 		def __init__(self, value):
 			self._var = value
 
@@ -31,7 +31,7 @@
 !SLIDE
 
 	@@@ python
-	class A:
+	class A(object):
 		def __init__(self, value):
 			self.__var = value
 
