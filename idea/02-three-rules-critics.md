@@ -72,46 +72,4 @@
 
 !SLIDE
 
-# Стандартная мантра
-
- * Инкапсуляция
- * Наследование
- * Полиморфизм
-
-!SLIDE
-
-# Стандартная мантра
-
-## Наследование в **Go**?
-
-!SLIDE
-
-# Наследование интерфейсов
-## Ага
-
-!SLIDE
-
-.notes Кен Томпсон и Роб Пайк (Google) посчитали наследование реализации источником проблем
-
-# Наследование реализации
-## Неа
-
-!SLIDE
-
-<pre class="sh_sourceCode">
-<code><strong>package</strong> main
-
-<strong>type</strong> <span class="sh_type">Jumper</span> <strong>interface</strong> { Jump() }
-<strong>type</strong> <span class="sh_type">Runner</span> <strong>interface</strong> { Run() }
-<strong>type</strong> <span class="sh_type">JumpRunner</span> <strong>interface</strong> {
-	<span class="sh_type">Jumper</span>
-	<span class="sh_type">Runner</span>
-}
-
-<strong>type</strong> <span class="sh_type">MyStruct</span> <strong>struct</strong> {}
-<strong>func</strong> (this <span class="sh_type">MyStruct</span>) Jump() {}
-<strong>func</strong> (this <span class="sh_type">MyStruct</span>) Runner() {}
-</code>
-</pre>
-
-!SLIDE
+# Инкапсуляция в ОО не подразумевает блокирование доступа в внутреннему состоянию
