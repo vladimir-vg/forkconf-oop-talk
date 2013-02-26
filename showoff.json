@@ -23,6 +23,10 @@
     "message-passing/02-method-call.md",
     "message-passing/03-message-passing.md",
 
+    "# Класс как объект",
+    "class-as-object/01-yea-it-happens.md",
+    "class-as-object/02-power.md",
+
     "# Конец",
     "outro/01-questions.md"
   ]
