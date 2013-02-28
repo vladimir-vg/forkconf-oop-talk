@@ -6,7 +6,8 @@
   "templates" : {
     "black": "black.tpl",
     "banana": "banana.tpl",
-    "pot": "pot.tpl"
+    "pot": "pot.tpl",
+    "power": "power.tpl"
   },
   "sections": [
     "intro/01-title.md",
@@ -26,6 +27,12 @@
     "# Класс как объект",
     "class-as-object/01-yea-it-happens.md",
     "class-as-object/02-power.md",
+
+    "# Прототипное ООП",
+    "prototypes/01-do-we-need-class.md",
+
+    "# Mixins и Traits",
+    "mixins-and-traits/01-example.md",
 
     "# Конец",
     "outro/01-questions.md"

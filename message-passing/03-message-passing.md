@@ -38,7 +38,7 @@
 
 	@@@ ruby
 	class AuthSession
-	  def connect_via_google(email)
+	  def connect_via_gplus(email)
 	    # ...
 	  end
 
@@ -60,7 +60,7 @@
 	s = AuthSession.new
 
 	# предопределённый метод
-	s.connect_via_google('foo@bar.ru')
+	s.connect_via_gplus('foo@bar.ru')
 
 	# хитрая обработка сообщения
 	s.connect_via_vk('foo@bar.ru')

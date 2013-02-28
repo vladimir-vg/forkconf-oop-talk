@@ -58,3 +58,7 @@ a:visited { color: #025D8C; }
 .pot-template {
 	background-image: url('/image/message-passing/pot-naming.png');
 }
+
+.power-template {
+	background-image: url('/image/class-as-object/power.png');
+}

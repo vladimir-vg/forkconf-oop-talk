@@ -11,25 +11,6 @@
 
 !SLIDE
 
-.notes Инкапсуляция не обязательно подразумевает полное закрытие доступа
-
-# Стандартная мантра
-
-## Инкапсуляция в **Python**?
-
-!SLIDE
-
-	@@@ python
-	class A(object):
-		def __init__(self, value):
-			self._var = value
-
-	a = A(10)
-	a._var = 5
-	print a._var # => 5
-
-!SLIDE
-
 	@@@ python
 	class A(object):
 		def __init__(self, value):
@@ -38,20 +19,6 @@
 	a = A(10)
 	a._A__var = 5
 	print a._A__var # => 5
-
-!SLIDE
-
-# Стандартная мантра
-
- * Инкапсуляция
- * Наследование
- * Полиморфизм
-
-!SLIDE
-
-# Стандартная мантра
-
-## Инкапсуляция в **Ruby**?
 
 !SLIDE
 

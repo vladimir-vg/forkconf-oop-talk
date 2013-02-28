@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE[tpl=power] center
 
 # Великая мощь
 
@@ -15,10 +15,13 @@
 
 	@@@ ruby
 	class API
-	  def register_generator(klass)
-	    # здесь можно сделать какую-нибудь
-	    # хитрую композицию из нескольких классов
-	    @generator = klass
+	  def register(klass1, klass2)
+	    # здесь можно сделать
+	    # какую-нибудь хитрую
+	    # композицию из
+	    # нескольких классов
+	    @generator =
+	      compose(klass1, klass2)
 	  end
 
 	  def generate_unit()
@@ -76,8 +79,23 @@
 
 !SLIDE
 
+# Классы-объекты тоже принадлежат к классам
+
+	@@@ ruby
+	class Class
+	  def foo()
+	    puts "foo!"
+	  end
+	end
+
+	class A; end
+
+	A.foo()
+
+!SLIDE
+
 # И зачем нужна вся эта акробатика?
 
 !SLIDE
 
-# Великолепно для проектирования сложного API
+# Великолепно для проектирования сложного API!
