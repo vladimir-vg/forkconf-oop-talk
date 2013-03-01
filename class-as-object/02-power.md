@@ -92,6 +92,9 @@
 
 	A.foo()
 
+!SLIDE center
+<div><img src="hell.png" /></div>
+
 !SLIDE
 
 # И зачем нужна вся эта акробатика?

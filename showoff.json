@@ -31,10 +31,11 @@
     "# Прототипное ООП",
     "prototypes/01-do-we-need-class.md",
 
-    "# Mixins и Traits",
-    "mixins-and-traits/01-example.md",
+    "# Mixins",
+    "mixins-and-traits/01-mixins.md",
+    "# Traits",
+    "mixins-and-traits/02-traits.md",
 
-    "# Конец",
     "outro/01-questions.md"
   ]
 }

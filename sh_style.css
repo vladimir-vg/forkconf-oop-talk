@@ -1,8 +1,21 @@
 /* code highlighting */
 
 pre.sh_sourceCode {
+	position: relative;
+
 	border: 2px solid #bbb;
 	background-color: white;
+}
+
+.sh_sourceCode .lang-type {
+	position: absolute;
+	right: -2px;
+	bottom: -2px;
+	padding: 5px;
+	border: 2px solid #bbb;
+	border-top-left-radius: 15px;
+	color: #bbb;
+	font-size: 100%;
 }
 
 pre.sh_sourceCode .sh_keyword { color: #BD2424; }
