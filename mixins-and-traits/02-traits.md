@@ -9,7 +9,7 @@
 
 # Псевдокод
 
-	@@@ text
+	@@@
 	trait Comparable
 	  require :compare
 
@@ -24,7 +24,7 @@
 
 !SLIDE
 
-	@@@ text
+	@@@
 	trait FirstTrait
 	  def foo; 'first'; end
 	end

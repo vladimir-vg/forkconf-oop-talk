@@ -52,13 +52,13 @@ a:visited { color: #025D8C; }
 }
 
 .banana-template {
-	background-image: url('/image/intro/plan-banana.png');
+	background-image: url('intro/plan-banana.png');
 }
 
 .pot-template {
-	background-image: url('/image/message-passing/pot-naming.png');
+	background-image: url('message-passing/pot-naming.png');
 }
 
 .power-template {
-	background-image: url('/image/class-as-object/power.png');
+	background-image: url('class-as-object/power.png');
 }
