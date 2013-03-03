@@ -53,7 +53,7 @@
 # Просто вызов метода
 
  * вызов метода
- * опеределение метода
+ * определение метода
 
 !SLIDE
 
@@ -76,24 +76,6 @@
 	    end
 	  end
 	end
-
-!SLIDE
-
-# Классы-объекты тоже принадлежат к классам
-
-	@@@ ruby
-	class Class
-	  def foo()
-	    puts "foo!"
-	  end
-	end
-
-	class A; end
-
-	A.foo()
-
-!SLIDE center
-<div><img src="hell.png" /></div>
 
 !SLIDE
 

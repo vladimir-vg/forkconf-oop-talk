@@ -5,6 +5,6 @@
 
 !SLIDE
 
-.notes В чём разница? На первый взгляд это два названия одного и того же.
+.notes C# -- вызов метода, в Ruby -- посылка сообщения
 
 <code style="font-size:3em">object.foo(bar)</code>
