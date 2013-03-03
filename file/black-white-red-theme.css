@@ -1,0 +1,64 @@
+/* custom css and js files included at the top level of your presentation will
+ * will be included in your presentation */
+
+body { font-family: 'PT Sans'; }
+code { font-family: 'PT Mono'; }
+h1 { font-family: 'PT Sans Narrow'; }
+
+/*	black: #070707
+	red: #BD2424
+	light-blue: #025D8C
+	light: #F3EFBE */
+
+body { color: #070707; }
+
+.slide {
+	color: #070707;
+	background-color: #F3EFBE;
+}
+
+.big {
+	font-size: 5em;
+}
+
+strong {
+	color: #BD2424;
+	font-weight: bold;
+}
+
+em {
+	color: #025D8C;
+	font-style: normal;
+}
+
+h1 {
+	color: #BD2424;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+a { color: #025D8C; }
+a:visited { color: #025D8C; }
+
+.subsection h1 {
+	background-color: #BD2424;
+	color: #F3EFBE;
+}
+
+/* templates */
+
+.black-template .slide {
+	background-color: #070707;
+}
+
+.banana-template {
+	background-image: url('intro/plan-banana.png');
+}
+
+.pot-template {
+	background-image: url('message-passing/pot-naming.png');
+}
+
+.power-template {
+	background-image: url('class-as-object/power.png');
+}
